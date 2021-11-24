@@ -1,0 +1,33 @@
+#board {
+    border: 5px solid black;
+    height: 400px;
+    width: 600px;
+    margin: auto;
+}
+
+#ball {
+    background-color: blue;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.paddle {
+    border: 1px solid black;
+    background-color: green;
+    /* display: none; */
+}
+
+#paddle_1 {
+    float: left;
+    background-color: yellow;
+    margin-bottom: 0px;
+    height: 150px;
+    width: 3rem;
+}
+
+#paddle_2 {
+    float: right;
+    width: 3rem;
+    height: 77px;
+}

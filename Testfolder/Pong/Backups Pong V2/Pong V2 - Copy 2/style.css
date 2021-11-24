@@ -1,0 +1,95 @@
+*{
+    background-color: black;
+}
+
+#board {
+    border: 5px solid white;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+}
+
+.ball {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: fixed;
+    top: calc(50%);
+    left: calc(50%);
+    background-color: blue;
+  }
+
+.paddle {
+    top: calc(17.5vh + 100px);
+    height: 150px;
+    width: 30px;
+    position: fixed;
+    border: 3px black solid;
+    border-radius: 20px;
+}
+
+#paddle_1 {
+    
+    left: calc(20rem);
+    background-color: red;
+}
+
+#paddle_2 {
+    
+    right: calc(20rem);
+    background-color: yellow;
+}
+
+
+.score {
+    position: flex;
+    margin-top: -4.8rem;
+    color: white;
+}
+
+#Player_1_Score {
+    float: left;
+    margin-left: 10rem;
+}
+
+#Player_2_Score {
+    float: right;
+    margin-right: 10rem;
+}
+
+#score {
+    position: flex;
+    text-align: center;
+    color:white;
+    border: 1px dotted white;
+    width: 80%;
+    margin: 2rem auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 1440px) AND (max-width: 3000px) {
+
+    #paddle_1 {
+    
+        left: calc(16rem);
+    }
+    
+    #paddle_2 {
+        
+        right: calc(16rem);
+    }
+
+    #board {
+        height: 1000px;
+        width: 1600px;
+    }
+    
+    #Player_1_Score {
+        margin-left: 30rem;
+    }
+    
+    #Player_2_Score {
+        margin-right: 30rem;
+    }
+}
